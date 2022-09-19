@@ -28,4 +28,12 @@ Langkah-langkah :
 
 ### No 3
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!</br>
+**Jawaban**: tcp.dstport == 80
+![Screenshot_2022-09-19_20_10_39](https://user-images.githubusercontent.com/91010605/191045857-47788df2-27c9-41ae-b4fd-a4ecf223ec66.png)
+### No 4
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!</br>
+**Jawaban**: tcp.srcport == 21
+![Screenshot_2022-09-19_20_12_51](https://user-images.githubusercontent.com/91010605/191047001-accbdc45-4529-4475-85d9-0927d3d5e8b8.png)
+### No 5
+
 
