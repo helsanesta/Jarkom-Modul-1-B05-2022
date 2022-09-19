@@ -25,3 +25,7 @@ Langkah-langkah :
 - Paket 599 terletak merupakan lanjutan dari paket 576 yang menuju link detail topik (klik kanan dan follow tcp stream)
 ![image](https://user-images.githubusercontent.com/70515589/191043039-7fd89d2f-451a-4107-9a75-232e6e4a9e9b.png)
 -  Dari sana dapat ditemukan jawaban judul topik yang dilihat
+
+### No 3
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!</br>
+
