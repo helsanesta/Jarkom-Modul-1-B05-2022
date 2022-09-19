@@ -35,5 +35,22 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!</br>
 **Jawaban**: tcp.srcport == 21
 ![Screenshot_2022-09-19_20_12_51](https://user-images.githubusercontent.com/91010605/191047001-accbdc45-4529-4475-85d9-0927d3d5e8b8.png)
 ### No 5
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!</br>
+**Jawaban**: tcp.srcport == 443
+![Screenshot_2022-09-19_20_15_48](https://user-images.githubusercontent.com/91010605/191048767-d4a57e90-46c1-4662-b795-69667437597c.png)
+### No 6
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!</br>
+**Jawaban**: Cara:
+- Gunakan filter `http contains "lipi.go.id"` maka akan didapatkan ip dari dns tersebut yaitu 203.160.128.158
+![Screenshot_2022-09-19_22_02_59](https://user-images.githubusercontent.com/91010605/191049310-059736a7-81e2-4c3f-8322-a0ab52ebd547.png)
+- Selanjutnya gunakan filter `ip.dst == 203.160.128.158`
+![Screenshot_2022-09-19_22_05_01](https://user-images.githubusercontent.com/91010605/191049664-2fbb07bc-b2d8-4973-aa1f-291987968912.png)
+### No 7
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!</br>
+**Jawaban**: Cara:
+- untuk linux gunakan command 'ifconfig' atau 'ip addr' untuk mendapatkan ip komputer kita.
+![Screenshot_2022-09-19_22_08_42](https://user-images.githubusercontent.com/91010605/191050519-fb9990ab-e03b-4f21-8c9c-b8b6a7bbc90c.png)
+- gunakan capture filter `src <ip komputer>` lalu eksekusi
+![Screenshot_2022-09-19_22_09_44](https://user-images.githubusercontent.com/91010605/191050757-9bcc8103-61c6-411e-a0c7-c931e280168e.png)
 
 
