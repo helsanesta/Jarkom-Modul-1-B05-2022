@@ -9,7 +9,7 @@
 Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! </br>
 **Jawaban**: nginx/1.10.3 </br>
 Langkah-langkah :
-- apply display filter `http contains "monta"`
+- apply wireshark filter expression `http contains "monta"`
 ![gambar1](https://user-images.githubusercontent.com/70515589/191040421-450e0761-91e9-45a2-93b1-a82c0610eb1f.png)
 - Klik kanan, lalu klik follow TCP Stream
 ![gambar2](https://user-images.githubusercontent.com/70515589/191040603-b8d0173c-3e45-4ca0-b7fc-8e51c214e680.png)
@@ -20,7 +20,7 @@ Langkah-langkah :
 Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ? </br>
 **Jawaban**: Evaluasi unjuk Kerja User Space FileSystem </br>
 Langkah-langkah :
-- apply display filter `http`
+- apply wireshark filter expression `http`
 ![image](https://user-images.githubusercontent.com/70515589/191042533-b796d7b2-0804-4c79-91c0-60953156f304.png)
 - Paket 599 terletak merupakan lanjutan dari paket 576 yang menuju link detail topik (klik kanan dan follow tcp stream)
 ![image](https://user-images.githubusercontent.com/70515589/191043039-7fd89d2f-451a-4107-9a75-232e6e4a9e9b.png)
@@ -51,6 +51,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!</br
 - untuk linux gunakan command 'ifconfig' atau 'ip addr' untuk mendapatkan ip komputer kita.
 ![Screenshot_2022-09-19_22_08_42](https://user-images.githubusercontent.com/91010605/191050519-fb9990ab-e03b-4f21-8c9c-b8b6a7bbc90c.png)
 - gunakan capture filter `src <ip komputer>` lalu eksekusi
-![Screenshot_2022-09-19_22_09_44](https://user-images.githubusercontent.com/91010605/191050757-9bcc8103-61c6-411e-a0c7-c931e280168e.png)
+![Screenshot_2022-09-19_22_19_14](https://user-images.githubusercontent.com/91010605/191052887-b1ba1faa-5c85-4f75-9204-017ff35b87ff.png)
+
 
 
