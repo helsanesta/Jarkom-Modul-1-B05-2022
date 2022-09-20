@@ -91,3 +91,6 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 **Jawaban**: Cara:
 - Password rahasia adalah `JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}` dimana password ini berada di dalam file flag.txt sebagai berikut.
 ![Screenshot (26)](https://user-images.githubusercontent.com/100585249/191058247-25b8465f-0039-40bb-b9af-335135162de4.png)
+
+## Kendala Pengerjaan
+- Untuk no 2, tidak akan nemu kalo ga dibaca pelan-pelan isi dari text html nya, jadi harus ngakalin text html mana yang bener dulu biar ga baca semua.
