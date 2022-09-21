@@ -94,3 +94,4 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 
 ## Kendala Pengerjaan
 - Untuk no 2, tidak akan nemu kalo ga dibaca pelan-pelan isi dari text html nya, jadi harus ngakalin text html mana yang bener dulu biar ga baca semua.
+- Untuk no 9, sebelumnya belum mengerti kalau file salt nya harus diubah ke raw data terlebih dahulu baru di-"Save As" agar dapat tersimpan dan terdekripsi dengan benar
