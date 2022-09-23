@@ -39,7 +39,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!</br>
 **Jawaban**: tcp.srcport == 443
 ![Screenshot_2022-09-19_20_15_48](https://user-images.githubusercontent.com/91010605/191048767-d4a57e90-46c1-4662-b795-69667437597c.png)
 ### No 6
-Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!</br>
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !</br>
 **Jawaban**: Cara:
 - Gunakan filter `http contains "lipi.go.id"` maka akan didapatkan ip dari dns tersebut yaitu 203.160.128.158
 ![Screenshot_2022-09-19_22_02_59](https://user-images.githubusercontent.com/91010605/191049310-059736a7-81e2-4c3f-8322-a0ab52ebd547.png)
